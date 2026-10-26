@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "k1v-chest",
-		icon = "__K1_Advanced_storage_continued__/graphics/technology/k1v-chest.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/technology/k1v-chest.png",
 		icon_size = 128,
 		effects =
 			{
@@ -25,7 +25,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "k1v-simple-logistic-chest",
-		icon = "__K1_Advanced_storage_continued__/graphics/technology/k1v-chest.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/technology/k1v-chest.png",
 		icon_size = 128,
 		effects =
 		{
@@ -51,7 +51,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "k1v-advanced-logistic-chest",
-		icon = "__K1_Advanced_storage_continued__/graphics/technology/k1v-advanced-logistic-chest.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/technology/k1v-advanced-logistic-chest.png",
 		icon_size = 128,
 		effects =
 		{

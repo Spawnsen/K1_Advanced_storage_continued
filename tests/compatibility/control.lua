@@ -1,5 +1,6 @@
 -- SPDX-License-Identifier: GPL-3.0-only
 local reloaded = false
+local test_stage = "advanced"
 
 script.on_init(function()
   local surface = game.surfaces[1]
@@ -23,7 +24,9 @@ script.on_init(function()
         name = name, position = {column * 16, row * 8}, force = "player"
       }
       assert(chest and chest.valid, "Cannot create " .. name)
-      storage.test_chests[#storage.test_chests + 1] = {entity = chest, slots = expected}
+      storage.test_chests[#storage.test_chests + 1] = {
+        entity = chest, slots = expected, unit_number = chest.unit_number
+      }
       local inventory = chest.get_inventory(defines.inventory.chest)
       assert(#inventory == expected, name .. " inventory size")
       assert(chest.insert{name = "iron-plate", count = 100} == 100, name .. " insert")
@@ -48,10 +51,21 @@ script.on_init(function()
   assert(count == 12)
   local force = game.forces.player
   for _, name in ipairs({"k1v-chest", "k1v-simple-logistic-chest", "k1v-advanced-logistic-chest"}) do
-    force.technologies[name].researched = true
+    force.technologies[name].researched = name ~= "k1v-advanced-logistic-chest" or test_stage == "advanced"
     for _, effect in pairs(force.technologies[name].prototype.effects) do
       if effect.type == "unlock-recipe" then
-        assert(force.recipes[effect.recipe].enabled, effect.recipe .. " research unlock")
+        assert(force.recipes[effect.recipe].enabled == force.technologies[name].researched,
+               effect.recipe .. " research unlock")
+      end
+    end
+  end
+  storage.expected_research = {}
+  storage.expected_recipes = {}
+  for _, name in ipairs({"k1v-chest", "k1v-simple-logistic-chest", "k1v-advanced-logistic-chest"}) do
+    storage.expected_research[name] = force.technologies[name].researched
+    for _, effect in pairs(force.technologies[name].prototype.effects) do
+      if effect.type == "unlock-recipe" then
+        storage.expected_recipes[effect.recipe] = force.recipes[effect.recipe].enabled
       end
     end
   end
@@ -62,15 +76,29 @@ script.on_load(function()
   reloaded = true
 end)
 
+script.on_configuration_changed(function()
+  reloaded = true
+  storage.reload_verified = false
+end)
+
 script.on_event(defines.events.on_tick, function()
   if not reloaded or storage.reload_verified then return end
   assert(#storage.test_chests == 12, "Saved chest list missing")
   for _, entry in ipairs(storage.test_chests) do
     assert(entry.entity.valid, "Chest missing after reload")
+    assert(entry.entity.unit_number == entry.unit_number, "Chest identity changed after reload")
     local inventory = entry.entity.get_inventory(defines.inventory.chest)
     assert(#inventory == entry.slots, "Inventory size changed after reload")
     assert(inventory.get_item_count("iron-plate") == 100, "Contents lost after reload")
   end
+  for name, researched in pairs(storage.expected_research) do
+    assert(game.forces.player.technologies[name].researched == researched,
+           name .. " research state changed after reload/rename")
+  end
+  for name, enabled in pairs(storage.expected_recipes) do
+    assert(game.forces.player.recipes[name].enabled == enabled,
+           name .. " recipe state changed after reload/rename")
+  end
   storage.reload_verified = true
-  helpers.write_file("reload-result.txt", "PASS: All 12 chests and their contents survived save/reload.\n")
+  helpers.write_file("reload-result.txt", "PASS: All 12 chest identities, inventories, contents, research and recipe states survived save/reload or rename.\n")
 end)

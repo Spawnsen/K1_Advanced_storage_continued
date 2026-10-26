@@ -31,6 +31,8 @@ The upstream archive did not supply a separate license file or a year-specific c
 
 **Spawnsen** maintains this unofficial Factorio 2.1 continuation. Compatibility changes were prepared on **2026-10-26** and are described in [changelog.txt](changelog.txt).
 
+From version 2.1.2, its display name is **K1 Advanced Storage — Factorio 2.1** and its internal mod ID is `Spawnsen_K1_Advanced_Storage`. The old ID appears in historical attribution and migration filenames. The GitHub repository address is retained. The rename and English documentation were prepared on 2026-10-26.
+
 Changes include the Factorio version declaration, logistic robot-door animation definitions, circuit connector definitions and request-slot property names. The simple-logistics research icon now reuses the documented chest research graphic. The unverified upstream green research icon, branded thumbnail and Windows `desktop.ini` are omitted.
 
 The source distribution contains editable Lua/configuration/localization files and the upstream PNG artwork. No Blender or layered artwork project files were supplied with the immediate upstream archive. This repository does not claim to contain such original authoring projects or to have obtained a separate endorsement from the upstream authors.

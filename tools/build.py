@@ -12,7 +12,7 @@ def build() -> Path:
     prefix = f"{info['name']}_{info['version']}"
     files = [ROOT / name for name in (
         "info.json", "data.lua", "data-updates.lua", "settings.lua", "changelog.txt",
-        "LICENSE", "README.md", "THIRD-PARTY-NOTICES.md",
+        "LICENSE", "README.md", "MOD_PORTAL_DESCRIPTION.md", "THIRD-PARTY-NOTICES.md",
     )]
     for name in ("graphics", "locale", "migrations", "prototypes", "LICENSES", "docs"):
         files.extend(p for p in (ROOT / name).rglob("*") if p.is_file())

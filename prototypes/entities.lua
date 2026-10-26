@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "container",
 		name = "k-medium-g",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_g_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_g_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-g"},
@@ -23,7 +23,7 @@ data:extend({
 		impact_category = "metal",
 		picture =
 		{
-			filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-g.png",
+			filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-g.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -37,7 +37,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-medium-s",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_s_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_s_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-s"},
@@ -63,7 +63,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-s.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-s.png",
 				priority = "extra-high",
 				width = 340,
 				height = 340,
@@ -80,7 +80,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-medium-b",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_b_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_b_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-b"},
@@ -107,7 +107,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-b.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-b.png",
 				priority = "extra-high",
 				width = 340,
 				height = 340,
@@ -124,7 +124,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-medium-r",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_r_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_r_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-r"},
@@ -151,7 +151,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-r.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-r.png",
 				priority = "extra-high",
 				width = 340,
 				height = 340,
@@ -168,7 +168,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-medium-pp",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_pp_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_pp_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-pp"},
@@ -193,7 +193,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-pp.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-pp.png",
 				priority = "extra-high",
 				width = 340,
 				height = 340,
@@ -210,7 +210,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-medium-ap",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_pp_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_pp_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "k-medium-ap"},
@@ -235,7 +235,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-medium-ap.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-medium-ap.png",
 				priority = "extra-high",
 				width = 340,
 				height = 340,
@@ -252,7 +252,7 @@ data:extend({
 	{
 		type = "container",
 		name = "k-big-g",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_g_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_g_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "k-big-g"},
@@ -273,7 +273,7 @@ data:extend({
 		impact_category = "metal",
 		picture =
 		{
-			filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-g.png",
+			filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-g.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -287,7 +287,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-big-s",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_s_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_s_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "k-big-s"},
@@ -313,7 +313,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-s.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-s.png",
 				priority = "extra-high",
 				width = 512,
 				height = 512,
@@ -332,7 +332,7 @@ data:extend({
 	{
     type = "logistic-container",
     name = "k-big-pp",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_pp_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_pp_icon.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "k-big-pp"},
@@ -357,7 +357,7 @@ data:extend({
     	opened_duration = 7,
     	animation =
     	{
-	    	filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-pp.png",
+	    	filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-pp.png",
 	    	priority = "extra-high",
 	    	width = 512,
 	    	height = 512,
@@ -374,7 +374,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-big-r",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_r_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_r_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "k-big-r"},
@@ -401,7 +401,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-r.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-r.png",
 				priority = "extra-high",
 				width = 512,
 				height = 512,
@@ -418,7 +418,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-big-b",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_b_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_b_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "k-big-b"},
@@ -445,7 +445,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-b.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-b.png",
 				priority = "extra-high",
 				width = 512,
 				height = 512,
@@ -462,7 +462,7 @@ data:extend({
 	{
 		type = "logistic-container",
 		name = "k-big-ap",
-		icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_ap_icon.png",
+		icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_ap_icon.png",
 		icon_size = 32,
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "k-big-ap"},
@@ -487,7 +487,7 @@ data:extend({
 			opened_duration = 7,
 			animation =
 			{
-				filename = "__K1_Advanced_storage_continued__/graphics/chests/hr-k-big-ap.png",
+				filename = "__Spawnsen_K1_Advanced_Storage__/graphics/chests/hr-k-big-ap.png",
 				priority = "extra-high",
 				width = 512,
 				height = 512,

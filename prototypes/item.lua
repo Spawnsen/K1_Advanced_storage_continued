@@ -3,7 +3,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-g",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_g_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_g_icon.png",
 		stack_size = 50,
     icon_size = 32,
     subgroup = "storage",
@@ -14,7 +14,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-s",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_s_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_s_icon.png",
 		stack_size = 50,
     icon_size = 32,    
     subgroup = "k-logistics2",
@@ -25,7 +25,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-b",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_b_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_b_icon.png",
 		stack_size = 50,
     icon_size = 32,    
     subgroup = "k-logistics2",
@@ -36,7 +36,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-r",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_r_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_r_icon.png",
 		stack_size = 50,
     icon_size = 32,    
     subgroup = "k-logistics2",
@@ -47,7 +47,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-pp",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_pp_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_pp_icon.png",
 		stack_size = 50,
     icon_size = 32,    
     subgroup = "k-logistics2",
@@ -58,7 +58,7 @@ data:extend(
 	{
     type = "item",
     name = "k-medium-ap",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_medium_ap_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_medium_ap_icon.png",
 		stack_size = 50,
     icon_size = 32,    
     subgroup = "k-logistics2",
@@ -69,7 +69,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-g",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_g_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_g_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "storage",
@@ -80,7 +80,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-s",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_s_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_s_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "k-logistics3",
@@ -91,7 +91,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-b",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_b_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_b_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "k-logistics3",
@@ -102,7 +102,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-r",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_r_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_r_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "k-logistics3",
@@ -113,7 +113,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-ap",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_ap_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_ap_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "k-logistics3",
@@ -124,7 +124,7 @@ data:extend(
 	{
     type = "item",
     name = "k-big-pp",
-    icon = "__K1_Advanced_storage_continued__/graphics/icons/k_big_pp_icon.png",
+    icon = "__Spawnsen_K1_Advanced_Storage__/graphics/icons/k_big_pp_icon.png",
 		stack_size = 20,
     icon_size = 32,    
     subgroup = "k-logistics3",

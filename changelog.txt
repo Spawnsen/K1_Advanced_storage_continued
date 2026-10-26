@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 2026-10-26
+  Changes:
+    - Rename the fork to K1 Advanced Storage — Factorio 2.1.
+    - Use the unique internal name Spawnsen_K1_Advanced_Storage for Mod Portal publication.
+    - Update all mod asset paths and package names.
+    - Mark the upstream storage mods as incompatible to prevent duplicate prototypes.
+    - Preserve entity, item, recipe and technology names when replacing the previous fork.
+    - Restore recipe unlocks from research when migrations run under the new mod name.
+    - Provide English documentation and a ready-to-copy Mod Portal description.
+
+---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 2026-10-26
   Changes:

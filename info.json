@@ -1,12 +1,14 @@
 {
-  "name": "K1_Advanced_storage_continued",
-  "version": "2.1.1",
-  "title": "K1 Advanced Chests (Factorio 2.1)",
-  "description": "Warehousing from Krastorio Legacy. Add a 2x2- and 6x6-chest with adjustable slots (Default are 200 and 2000). Also have logistic versions of these chests.",
+  "name": "Spawnsen_K1_Advanced_Storage",
+  "version": "2.1.2",
+  "title": "K1 Advanced Storage — Factorio 2.1",
+  "description": "Large 2x2 and 6x6 storage chests with configurable inventories and all five logistic variants. An unofficial Factorio 2.1 continuation of K1 Advanced storage, featuring artwork from Krastorio Legacy.",
   "author": "Krastor, SuzukinCblH, Spawnsen",
   "homepage": "https://github.com/Spawnsen/K1_Advanced_storage_continued",
   "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.1.7"
+    "base >= 2.1.7",
+    "! K1_Advanced_storage_continued",
+    "! Juicy_mods"
   ]
 }
