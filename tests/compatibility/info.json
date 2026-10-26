@@ -1,0 +1,11 @@
+{
+  "name": "k1-compatibility-test",
+  "version": "1.0.0",
+  "title": "Local compatibility checks",
+  "author": "Spawnsen",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.7",
+    "K1_Advanced_storage_continued >= 2.1.1"
+  ]
+}

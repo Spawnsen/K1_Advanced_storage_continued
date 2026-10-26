@@ -1,0 +1,184 @@
+[
+  {
+    "file": "graphics/chests/hr-k-medium-g.png",
+    "sha256": "63b3808a179d8256652bee5141b578aebbb70ce4220248a4e01274031148be4d",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/strongbox/strongbox.png",
+    "reference_sha256": "306dabd3e565da59cf79bb433a0040417e1f511348f8cc5aa338846f501cc7f4",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-medium-ap.png",
+    "sha256": "a4ff017c85a3b335490806fc85771860b9d53edc78b2156069a5fc38181b1ade",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/active-provider-strongbox/active-provider-strongbox.png",
+    "reference_sha256": "e046b4591d1a0fdfdc00aeebc2d96f34544e809a30cc6d3d6257da81c1bca199",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-medium-pp.png",
+    "sha256": "4ffa46c80a7e3d8417deb617d2c872ca3ca533f55d998efb5f01c5b5dbeb3ce4",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/passive-provider-strongbox/passive-provider-strongbox.png",
+    "reference_sha256": "903ace5287a40ef6b4e51f09f8cba9e314d4b8f126ca01d577ade3dda6d6d67e",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-medium-b.png",
+    "sha256": "48e8c2c96345a5e20346df0708c235a5d79337ef0d539d4ce1b968e1e93745ab",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/buffer-strongbox/buffer-strongbox.png",
+    "reference_sha256": "8fad59a9ab85bb42ec825a48f0ce94a4b8daaa51f24f5a3105b589e3c8939457",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-medium-r.png",
+    "sha256": "8030603b275c33fce9bdb76327649b6ba3a0fd97c88e0e6302cba9dd10fb5043",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/requester-strongbox/requester-strongbox.png",
+    "reference_sha256": "e20f3dc4d27e33245d586ea4a333ede66309eaedc3c5a7ba99e9e12567b0bbc2",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-medium-s.png",
+    "sha256": "f7648c24781038f0078e9a8b8ad3e0553c275fcb888d8e52f280cc231200c905",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/storage-strongbox/storage-strongbox.png",
+    "reference_sha256": "19f8ef945bf1031f57ad08dc23a0acdbf26a86dd124864295a02c72b9f0640ca",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-g.png",
+    "sha256": "d9ca27be1a111ccfbece057fb750c968ebb5af20a16ad91ac0db5e8d28cea1c3",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/warehouse/warehouse.png",
+    "reference_sha256": "95f016e8313f4e51a8883168355c58bb94ffa6ced0b3de6e6a5494817fc2f961",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-ap.png",
+    "sha256": "75a0de9fa14e07b5de29f6573e1e4e44cf82c98973839e683c1a6badecf10540",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/active-provider-warehouse/active-provider-warehouse.png",
+    "reference_sha256": "c0b754e2fd09ddaeb85719e7c45f527f75f8c2312b19243d31d4c9c2f8465b57",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-pp.png",
+    "sha256": "4eb9e0c14ff75ffd924ebbc66fa510621b914c756abb7b00f8c5a5ec13867d87",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/passive-provider-warehouse/passive-provider-warehouse.png",
+    "reference_sha256": "3cd16633f127a1621daeaa542a7f70f907755a26fd44f8f1459436f9a1ace030",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-b.png",
+    "sha256": "686a15c0351658700af631087a9f9eaad2141db758df7867f8736b6ad3a39843",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/buffer-warehouse/buffer-warehouse.png",
+    "reference_sha256": "208d07d2747b3b8cdfdb27d02d92c3c5f263f67281179cd1cefafa7b0d1bc111",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-r.png",
+    "sha256": "5d7f49b0d95d7d90ebf6845e1e91f38c2d7036426011ab40d664d4281ff51594",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/requester-warehouse/requester-warehouse.png",
+    "reference_sha256": "72f2858bfeb287c279b36d88caded3a4dd464114df18f1ceb4c96ee2e6f22bd3",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/chests/hr-k-big-s.png",
+    "sha256": "e38a595ecba223c7d61a610bb6b22c8d7d7203236fc334eed157954fe8453661",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2Assets/8327c886c611b825b9c76e9ab0a574589298146b/buildings/storage-warehouse/storage-warehouse.png",
+    "reference_sha256": "eeeb637eb84b80f4f3f52ffe2a3dd177db9e8a6fd07ef98bb3945e7b97b36cf2",
+    "comparison": "identical RGBA pixels"
+  },
+  {
+    "file": "graphics/icons/k_medium_g_icon.png",
+    "sha256": "fcda2779cd5104a198440ca7d037530f4dda96ef0edb16d62e026e5069753a59",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-container.png",
+    "reference_sha256": "fcda2779cd5104a198440ca7d037530f4dda96ef0edb16d62e026e5069753a59",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_medium_ap_icon.png",
+    "sha256": "9be87c8e1f5c2de0601b297a3203dc66666fda687de20687b07a51afd352f15b",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-active-provider-container.png",
+    "reference_sha256": "9be87c8e1f5c2de0601b297a3203dc66666fda687de20687b07a51afd352f15b",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_medium_pp_icon.png",
+    "sha256": "d8ae595182f78bffcd1c1cb46088ed095aef69eae664f2e223a9cde36beca4d3",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-passive-provider-container.png",
+    "reference_sha256": "d8ae595182f78bffcd1c1cb46088ed095aef69eae664f2e223a9cde36beca4d3",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_medium_b_icon.png",
+    "sha256": "ffdf4e2d16f83e8ce5fdaafacc5af1417e214df9f3831fd18e79fc95d63119fd",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-buffer-container.png",
+    "reference_sha256": "ffdf4e2d16f83e8ce5fdaafacc5af1417e214df9f3831fd18e79fc95d63119fd",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_medium_r_icon.png",
+    "sha256": "a10e848fdebb13fe28b11b385127cfb41b698ff49d59ec45a1b4ee8ed85031c7",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-requester-container.png",
+    "reference_sha256": "a10e848fdebb13fe28b11b385127cfb41b698ff49d59ec45a1b4ee8ed85031c7",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_medium_s_icon.png",
+    "sha256": "e7011f3f3531db97e59137fd9c96e7b4ea684bf221c261637f3ec7874747fa2e",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/medium-containers/medium-storage-container.png",
+    "reference_sha256": "e7011f3f3531db97e59137fd9c96e7b4ea684bf221c261637f3ec7874747fa2e",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_g_icon.png",
+    "sha256": "6376c694f41d6d2bc86be0a0d53de69dab777065d60b55881564e89e0734f754",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-container.png",
+    "reference_sha256": "6376c694f41d6d2bc86be0a0d53de69dab777065d60b55881564e89e0734f754",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_ap_icon.png",
+    "sha256": "5b3864673a88cfaf193bd9a6c0680b6e2006431c675705f262b1837539ee7875",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-active-provider-container.png",
+    "reference_sha256": "5b3864673a88cfaf193bd9a6c0680b6e2006431c675705f262b1837539ee7875",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_pp_icon.png",
+    "sha256": "9209bd9ab68ae403ebbec7bb69f5bdcf45ae73cb00662960cbdca3f94f1974eb",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-passive-provider-container.png",
+    "reference_sha256": "9209bd9ab68ae403ebbec7bb69f5bdcf45ae73cb00662960cbdca3f94f1974eb",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_b_icon.png",
+    "sha256": "19a7db1a3f8e00e4d594200cb06090d0b7ed362df16c7e47c14ed7d4d303bc26",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-buffer-container.png",
+    "reference_sha256": "19a7db1a3f8e00e4d594200cb06090d0b7ed362df16c7e47c14ed7d4d303bc26",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_r_icon.png",
+    "sha256": "5b19ae1011e1934ebd710b4257c3fd0f49e67ea49c3157b5fc2c141cfe753317",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-requester-containers.png",
+    "reference_sha256": "5b19ae1011e1934ebd710b4257c3fd0f49e67ea49c3157b5fc2c141cfe753317",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/icons/k_big_s_icon.png",
+    "sha256": "ae98ec0ac5b9a8878a4fe2487a3ab1a5486627657317840bb43fbd7e6dc7198e",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/icons/entities/containers/big-containers/big-storage-container.png",
+    "reference_sha256": "ae98ec0ac5b9a8878a4fe2487a3ab1a5486627657317840bb43fbd7e6dc7198e",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/technology/k1v-chest.png",
+    "sha256": "fece962d7d9ef8edbd83ca86ce20dad669c96c7b5fe484ccad534ce9e59bce81",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/technologies/containers.png",
+    "reference_sha256": "fece962d7d9ef8edbd83ca86ce20dad669c96c7b5fe484ccad534ce9e59bce81",
+    "comparison": "identical file bytes"
+  },
+  {
+    "file": "graphics/technology/k1v-advanced-logistic-chest.png",
+    "sha256": "51bcd88d25d151aba3f3f415bb2663f64c8f06f5c4095e9719b7a2bfe3a1828d",
+    "reference": "https://raw.githubusercontent.com/raiguard/Krastorio2/e2b75a55935cc5fe848e24008c14e18700fdf419/graphics/technologies/logistic-containers.png",
+    "reference_sha256": "51bcd88d25d151aba3f3f415bb2663f64c8f06f5c4095e9719b7a2bfe3a1828d",
+    "comparison": "identical file bytes"
+  }
+]

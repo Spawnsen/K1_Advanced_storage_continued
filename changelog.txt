@@ -1,0 +1,67 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 2026-10-26
+  Changes:
+    - Prepare the unofficial Factorio 2.1 continuation for publication on GitHub.
+    - Include GPLv3, upstream license texts and attribution.
+    - Reuse the documented chest technology icon for simple logistics research.
+    - Omit the upstream branded thumbnail with unverified separate provenance.
+
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-10-26
+  Changes:
+    - Local compatibility update for Factorio 2.1.
+    - Move logistic chest animations to robot_door and define opened_duration explicitly.
+    - Update circuit connectors for all twelve chest variants.
+    - Replace obsolete logistic_slots_count with max_logistic_slots.
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 28. 10. 2024
+	Changes:
+		- Factorio 2.0 ready
+	Locale:
+		- Added German translation
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 29. 10. 2024
+
+	Bugfixes:
+		- Fixed PNG-Path
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 29. 11. 2024
+
+	Removed:
+		- Normal-version Graphics
+	Changes:
+		- Hr-version Graphics now as Default
+		- vehicle-impact-category changed to impact-category
+	Technology Changes
+		- Technology renamed to Bigger Chests and Bigger Logistic Chests
+		- Added technology prerequisite "steel-processing" to Bigger Chests
+		- Added technology prerequisite "logistic-system" to Bigger Logistic Chests
+		- Research Time for Bigger Chests increased to 15 sec per unit
+		- Research Time for Logistic Chests increased to 30 sec per unit
+		- Research Cost for Logistic Chests increased to 300 units
+	Added:
+		- Logistic Trash Inventory to storage and buffer logistic chests
+	Locale:
+		- changed big chests to medium chests
+		- changed warehouse to big chests
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 02. 12. 2024
+
+	Changes to Technology again to better fit vanilla:
+		- Bigger Logistic Chests now splittet in simple and advanced technology (research)
+		- Simple includes only passive provider and storage chest, Advanced the other ones
+		- when SA is installed/active > "Advanced" uses space science pack instead of utility-science-pack (like as vanilla "logistics-system")
+	Added:
+		- Setting for inventory (max = default as before) and trash-inventory size
+	Bugfixes:
+		- SA: Chests are no longer buildable on space platforms
